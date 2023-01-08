@@ -27,14 +27,12 @@
 
  #single_room{
     height: calc(100vh - 160 px);
-    overflow-x: hidden;
-    overflow-x: scroll;
  }
 
  #messages{
     height: calc(100vh - 160 px);
     overflow-x: hidden;
-    overflow-x: scroll;
+    overflow-y: scroll;
  }
 
  #room-container{
@@ -47,7 +45,6 @@
     margin-right: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-bottom: 55px;
 
  }
  
@@ -64,7 +61,7 @@
  }
 
 .message-box{
-    word_wrap: break-word;
+    word-wrap: break-word;
     width: fit-content;
     max-width: 40%;
     padding: 5px;
