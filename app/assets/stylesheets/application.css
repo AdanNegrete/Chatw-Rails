@@ -18,6 +18,12 @@
     overflow: hidden;
  }
 
+ .dark-theme{
+   background-color: rgba(0, 0, 0, 1);
+   height: 100vh;
+   color:rgb(252, 251, 251)
+ }
+
  .title-text{
    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #7411BD 0px 0px 20px, #7411BD 0px 0px 30px, #7411BD 0px 0px 40px, #7411BD 0px 0px 50px, #7411BD 0px 0px 75px, -3px 2px 2px rgba(116,17,189,0);
    color: #000000;
@@ -121,3 +127,27 @@
    padding-bottom: 0px;
    margin-bottom: 0px;
  }
+
+ #btn-start{
+   background:    #8d30ce;
+    background:    linear-gradient(#28376c, #8d30ce 50%, #28376c);
+    border-radius: 1000px;
+    padding:       15px 30px;
+    color:         #55f610;
+    display:       inline-block;
+    font:          italic bold 21px/1 "Overlock", cursive;
+    text-align:    center;
+    margin-bottom: 10px;
+}
+
+#btn-start:hover{
+   background:    #28376c;
+    background:    linear-gradient(#8d30ce, #28376c 50%, #8d30ce);
+    border-radius: 1000px;
+    padding:       15px 30px;
+    color:         #55f610;
+    display:       inline-block;
+    font:          italic bold 21px/1 "Overlock", cursive;
+    text-align:    center;
+    margin-bottom: 10px;
+}
