@@ -18,6 +18,18 @@
     overflow: hidden;
  }
 
+ .title-text{
+   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #7411BD 0px 0px 20px, #7411BD 0px 0px 30px, #7411BD 0px 0px 40px, #7411BD 0px 0px 50px, #7411BD 0px 0px 75px, -3px 2px 2px rgba(116,17,189,0);
+   color: #000000;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ }
+
+.center-block{
+   margin: 0 auto;
+}
+
  .msg-form{
     width: 100%;
     height: 56px;
