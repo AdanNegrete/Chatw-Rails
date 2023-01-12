@@ -26,11 +26,11 @@
  }
 
  #single_room{
-    height: calc(100vh - 160 px);
+    height: calc(100vh - 160px);
  }
 
  #messages{
-    height: calc(100vh - 160 px);
+    height: calc(100vh - 160px);
     overflow-x: hidden;
     overflow-y: scroll;
  }
@@ -41,7 +41,7 @@
  }
 
  #side_panel{
-    height: 100vt;
+    height: 100vh;
     margin-right: 0px;
     overflow-x: hidden;
     overflow-y: scroll;
